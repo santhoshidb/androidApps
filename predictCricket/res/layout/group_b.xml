@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/bg_b">
+<TableLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/TableLayout01"
+        android:layout_width="wrap_content">
+
+<TableRow android:padding="10dp">
+<TextView  android:text="#1" android:id="@+id/fblabel2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dp" android:padding="5dp" android:textColor="#000000"></TextView>
+<Spinner android:id="@+id/Spinner01b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/groupb"/>
+</TableRow>
+
+<TableRow android:padding="10dp">
+<TextView  android:text="#2" android:id="@+id/fblabel2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dp" android:padding="5dp" android:textColor="#000000"></TextView>
+<Spinner android:id="@+id/Spinner02b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/groupb"/>
+</TableRow>
+<TableRow android:padding="10dp">
+<TextView  android:text="#3" android:id="@+id/fblabel2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dp" android:padding="5dp" android:textColor="#000000"></TextView>
+<Spinner android:id="@+id/Spinner03b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/groupb"/>
+</TableRow>
+<TableRow android:padding="10dp">
+<TextView  android:text="#4" android:id="@+id/fblabel2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dp" android:padding="5dp" android:textColor="#000000"></TextView>
+<Spinner android:id="@+id/Spinner04b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/groupb"/>
+</TableRow>
+</TableLayout>
+<TableLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/TableLayout02"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/TableLayout01"
+        android:gravity="fill" android:padding="10dp">
+<TableRow android:gravity="center">
+<TextView  android:text="" android:id="@+id/fblabel2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dp" android:textColor="#000000"></TextView>  
+<TextView  android:text="" android:id="@+id/fblabel2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dp" android:textColor="#000000"></TextView>  
+<TextView  android:text="" android:id="@+id/fblabel2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dp" android:textColor="#000000"></TextView>  
+
+<Button android:layout_height="wrap_content" android:layout_below="@+id/TableLayout01" android:layout_width="wrap_content" android:text="&lt;&lt;Prev" android:id="@+id/prevB"></Button>
+<TextView  android:text="" android:id="@+id/fblabel2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dp" android:textColor="#000000"></TextView>
+
+<Button android:layout_height="wrap_content" android:layout_below="@+id/TableLayout01" android:layout_width="wrap_content" android:text="Next>>" android:id="@+id/nextB"></Button></TableRow>
+</TableLayout>
+</RelativeLayout>

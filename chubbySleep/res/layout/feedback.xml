@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<TableLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/TableLayout00"
+        android:layout_width="wrap_content">
+ <TableRow>   
+<TextView  android:text="Give Us Your Feedback" android:id="@+id/fblabel2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="5dp" android:textColor="#000000"></TextView>
+</TableRow>
+
+</TableLayout>
+<TableLayout
+        android:layout_below="@id/TableLayout00"
+        android:layout_height="wrap_content"
+        android:id="@+id/TableLayout01"
+        android:layout_width="wrap_content">
+<TableRow>
+<TextView  android:text="Email:" android:id="@+id/emaillabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:textColor="#000000"></TextView>
+<EditText  android:id="@+id/fbemail" android:width="200dp" android:textColor="#000000"></EditText>
+</TableRow>
+<TableRow>
+<TextView android:text="Comments:" android:id="@+id/commentslabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:textColor="#000000"></TextView>
+<EditText android:id="@+id/fbtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="5" android:textColor="#000000"></EditText>
+</TableRow>
+<TableRow>
+<TextView android:id="@+id/buttonlabel" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" android:id="@+id/submitfeedback" android:textColor="#000000"/>
+ </TableRow>
+ </TableLayout>
+</RelativeLayout>
+    

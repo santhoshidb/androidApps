@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_f"
+    android:gravity="center">
+<TableLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/TableLayout01"
+        android:layout_width="wrap_content"
+        android:gravity="fill">
+<TableRow android:padding="10dp">
+	<ImageView android:layout_height="fill_parent"
+        android:id="@+id/fi1" android:paddingRight="10dp"
+        android:layout_width="fill_parent"/>
+     <ImageView android:layout_height="fill_parent"
+        android:id="@+id/fi2"
+        android:layout_width="fill_parent"/>
+</TableRow>
+<TableRow android:padding="10dp">
+<Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:paddingRight="10dp" android:text="&lt;&lt;Prev" android:id="@+id/prevF"></Button>
+<Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="Next>>" android:id="@+id/nextF"></Button>
+</TableRow>
+</TableLayout>
+
+<TableLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/TableLayout02"
+        android:layout_below="@id/TableLayout01"
+        android:layout_width="wrap_content"
+        android:gravity="fill">
+<TableRow android:padding="10dp">
+<TextView android:layout_height="fill_parent" android:layout_width="fill_parent" 
+		  android:textColor="#303079" android:textSize="15dp" android:textStyle="bold"
+		  android:gravity="center" android:layout_centerInParent="true"
+		  android:typeface="monospace" android:id="@+id/announce"></TextView>
+</TableRow>
+</TableLayout>
+</RelativeLayout>

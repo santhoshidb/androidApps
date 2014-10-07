@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, chubbySleep!</string>
+    <string name="app_name">ChubbySleep</string>
+<string name="string1">value</string>
+ 
+     
+    <string name="sleepTime_list">Choose longest night-time sleep</string>
+    <string-array name="sleepTime_array">
+        <item>less than 6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12 or more</item>
+    </string-array>
+    <string name="totalSleep_list">Choose total sleep time</string>
+    <string-array name="totalSleep_array">
+        <item>less than 10</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15 or more</item>       
+    </string-array>
+   
+<string name="no_history">No History Yet!</string>
+
+
+
+<string name="reportHeader"><u>Sleep Percentile Report</u></string>
+<string name="reportHeader1">Your child\'s sleep percentile is:</string>
+
+
+
+</resources>
+

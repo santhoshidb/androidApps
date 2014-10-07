@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/bg_sf">
+
+<TableLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/TableLayout02"
+        android:layout_width="wrap_content"
+        android:gravity="fill">
+<TableRow android:padding="10dp">
+	<ImageView android:layout_height="fill_parent"
+        android:id="@+id/si1" android:paddingRight="10dp"
+        android:layout_width="fill_parent"/>
+     <ImageView android:layout_height="fill_parent"
+        android:id="@+id/si2"
+        android:layout_width="fill_parent"/>
+</TableRow>
+
+<TableRow android:padding="10dp">
+	<ImageView android:layout_height="fill_parent"
+        android:id="@+id/si3" android:paddingRight="10dp"
+        android:layout_width="fill_parent"/>
+     <ImageView android:layout_height="fill_parent"
+        android:id="@+id/si4"
+        android:layout_width="fill_parent"/>
+</TableRow>
+
+<TableRow android:padding="10dp">
+<Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:paddingRight="10dp" android:text="&lt;&lt;Prev" android:id="@+id/prevS"></Button>
+<Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="Next>>" android:id="@+id/nextS"></Button>
+</TableRow>
+</TableLayout>
+</RelativeLayout>

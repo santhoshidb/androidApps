@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/ScrollViewTipsLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:padding="6px" android:background="#FFFFFF">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TextView android:id="@+id/age_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Enter Baby's Birthdate:" android:padding="4px" android:textSize="15px" android:textStyle="bold" android:textColor="#000000"/>
+   
+    
+    <DatePicker
+		android:id="@+id/age_pick"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/age_label"/>
+
+	<TextView
+        android:id="@+id/total_sleep_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/age_pick"
+        android:text="Enter total time baby sleeps in a day:" android:textSize="15px" android:textStyle="bold" android:padding="4px" android:textColor="#000000"/>
+   
+    <Spinner 
+        android:id="@+id/total_sleep_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_sleep_label"
+        android:prompt="@string/totalSleep_list"/>
+     
+     <TextView
+        android:id="@+id/longest_sleep_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_sleep_spinner"
+        android:text="Enter longest stretch of time baby sleeps for:" android:padding="4px" android:textSize="15px" android:textStyle="bold" android:textColor="#000000"/>
+   
+    <Spinner 
+        android:id="@+id/longest_sleep_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/longest_sleep_label"
+        android:prompt="@string/sleepTime_list"/>
+     
+     <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/longest_sleep_spinner"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:text="SUBMIT" android:textColor="#000000"/>
+  </RelativeLayout>
+  </ScrollView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/bg_qf">
+
+<TableLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/TableLayout02"
+        android:layout_width="wrap_content"
+        android:gravity="fill">
+<TableRow android:padding="10dp">
+	<ImageView
+        android:id="@+id/qaiv1"
+        android:paddingRight="10dp"
+        	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+   
+     <ImageView
+        android:id="@+id/qbiv1"
+        	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+   
+</TableRow>
+<TableRow android:padding="10dp">
+	<ImageView 
+        android:id="@+id/qaiv2"
+        android:paddingRight="10dp"
+       android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        />
+     <ImageView 
+        android:id="@+id/qbiv2"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+</TableRow>
+<TableRow android:padding="10dp">
+	<ImageView 
+        android:id="@+id/qaiv3"
+        android:paddingRight="10dp"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        />
+     <ImageView 
+        android:id="@+id/qbiv3"
+       android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+</TableRow>
+<TableRow android:padding="10dp">
+	<ImageView 
+        android:id="@+id/qaiv4"
+        android:paddingRight="10dp"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        />
+     <ImageView 
+        android:id="@+id/qbiv4"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+</TableRow>
+<TableRow android:padding="10dp">
+<Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:paddingRight="10dp" android:text="&lt;&lt;Prev" android:id="@+id/prevQ"></Button>
+<Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="Next>>" android:id="@+id/nextQ"></Button>
+</TableRow>
+</TableLayout>
+
+</RelativeLayout>
